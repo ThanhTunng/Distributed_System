@@ -22,7 +22,7 @@ public class Client {
 			
 			// Get number from user and send to server, until user types empty
 			String input;
-			while(( input = stdIn.readLine()) == null) {
+			while(( input = stdIn.readLine()) != null) {
 				out.println(input);
 				//read a line from bufferedReader connected to socket
 				System.out.println("echo: "+ in.readLine());
