@@ -29,6 +29,7 @@ public class Client {
 			}
 		}catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("You enter wrong format!! Please input a list of number separated by a space!");
 		}
 		
 	}

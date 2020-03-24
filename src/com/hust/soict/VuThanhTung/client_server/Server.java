@@ -58,7 +58,7 @@ public class Server {
 					}
 					
 					//Sort the numbers in this int array
-					new SelectionSort().sort(intArr);
+					new ShellSort().sort(intArr);
 					
 					//Convert the int array to string
 					String strArr[] = Arrays.stream(intArr)
